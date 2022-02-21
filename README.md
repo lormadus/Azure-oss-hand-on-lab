@@ -26,5 +26,5 @@ az appservice plan create -n OsTicket -g user20OsTicketPaaSRG --is-linux -l "Wes
 
 ## 웹앱 생성
 ```
-az webapp create -n user20osTicketsystem -g user20OsTicketPaaSRG -p OsTicket -r "php|7.3"
+az webapp create -n user20osTicketsystem -g user20OsTicketPaaSRG -p OsTicket -r "php|7.4"
 ```
