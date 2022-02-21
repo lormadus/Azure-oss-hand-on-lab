@@ -19,3 +19,7 @@ az mysql server firewall-rule create --resource-group user20OsTicketPaaSRG --ser
 ```
 Database=osTicket; Data Source=user20osticketsrv01.mysql.database.azure.com; User Id=demouser@user20osticketsrv01; Password=demo@pass123
 ```
+## 웹앱 만들기
+```
+az appservice plan create -n OsTicket -g user20OsTicketPaaSRG --is-linux -l "West US" --sku S1 --number-of-workers 1
+```
