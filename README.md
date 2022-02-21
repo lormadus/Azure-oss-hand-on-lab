@@ -14,3 +14,8 @@ az mysql server create --resource-group user20OsTicketPaaSRG --name user20ostick
 ```
 az mysql server firewall-rule create --resource-group user20OsTicketPaaSRG --server-name user20osticketsrv01 --name Internet --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 ```
+
+## DB접속 문자열
+```
+Database=osTicket; Data Source=user20osticketsrv01.mysql.database.azure.com; User Id=demouser@user20osticketsrv01; Password=demo@pass123
+```
